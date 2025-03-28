@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-z(!hbb56%6r3#!-%jkm5*v($=4emt)l(hk98(6z*tfq+mkv_xe
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '50.16.103.234', 'ec2-50-16-103-234.compute-1.amazonaws.com'
+    '50.16.103.234', 'ec2-50-16-103-234.compute-1.amazonaws.com', 'localhost', '127.0.0.1','0.0.0.0'
 ]
 
 
@@ -93,9 +93,13 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',  # This creates the database in your project root
-        'HOST': 'your-rds-endpoint.rds.amazonaws.com'
+        'HOST': 'ec2-50-16-103-234.compute-1.amazonaws.com'
     }
 }
+
+AWS_STORAGE_BUCKET_NAME = 'your-bucket-name'
+AWS_S3_REGION_NAME = 'us-east-1'
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
