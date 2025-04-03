@@ -58,6 +58,27 @@ A Django-based API for managing **students** and **subjects** using SQLite3.
 | GET    | `/studentapi/subjects/` | List all subjects |
 | POST   | `/studentapi/subjects/` | Create a new subject |
 
+## Deployment
+
+To deploy the project on a production server:
+
+1. **Collect Static Files**  
+   ```bash
+   python manage.py collectstatic
+   ```
+
+2. **Use Gunicorn for Deployment**  
+   ```bash
+   pip install gunicorn
+   gunicorn --bind 0.0.0.0:8000 softwareengineeringproject.wsgi
+   ```
+
+3. **Set Up Reverse Proxy with Nginx**  
+   Configure Nginx to forward requests to Gunicorn.
+
+4. **Use a Process Manager (Optional)**  
+   Use **supervisor** or **systemd** to keep Gunicorn running.
+
 ## License
 MIT License. Feel free to use and modify. 🚀
 
