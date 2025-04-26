@@ -1,0 +1,464 @@
+
+===========================
+
+🗂️ Backup started at 20250426_214312
+🔄 Backing up API files...
+tar: Removing leading `/' from member names
+✅ API files backed up successfully.
+💾 Backing up SQLite database...
+✅ Database backup completed successfully.
+🗑️ Deleting old backups...
+✅ Old backups removed successfully.
+Backup completed at Sat Apr 26 21:43:24 UTC 2025
+
+===========================
+==========================
+Server Health Check - Sat Apr 26 20:50:43 UTC 2025
+==========================
+-e 
+🔋 Checking CPU Load...
+ 20:50:43 up 29 days,  6:54,  2 users,  load average: 0.00, 0.00, 0.00
+==========================
+Server Health Check - Sat Apr 26 20:50:58 UTC 2025
+==========================
+-e 
+🔋 Checking CPU Load...
+ 20:50:58 up 29 days,  6:54,  2 users,  load average: 0.00, 0.00, 0.00
+==========================
+Server Health Check - Sat Apr 26 21:01:23 UTC 2025
+==========================
+
+🔋 Checking CPU Load...
+ 21:01:23 up 29 days,  7:05,  2 users,  load average: 0.00, 0.00, 0.00
+
+💻 Checking Memory Usage...
+               total        used        free      shared  buff/cache   available
+Mem:           957Mi       574Mi       100Mi       948Ki       457Mi       382Mi
+Swap:             0B          0B          0B
+
+💾 Checking Disk Usage...
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.8G  3.5G  3.3G  52% /
+tmpfs           479M     0  479M   0% /dev/shm
+tmpfs           192M  932K  191M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda16     881M  137M  683M  17% /boot
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+tmpfs            96M   12K   96M   1% /run/user/1000
+
+🌐 Checking Web Server Status...
+Nginx Web Server: RUNNING
+
+🔌 Checking API Endpoints Status...
+WARNING: GET /students failed
+WARNING: GET /subjects failed
+
+📝 Health Check completed. See /var/log/server_health.log for detailed report.
+
+==========================
+Server Health Check - Sat Apr 26 21:03:59 UTC 2025
+==========================
+
+🔋 Checking CPU Load...
+ 21:03:59 up 29 days,  7:07,  2 users,  load average: 0.00, 0.00, 0.00
+
+💻 Checking Memory Usage...
+               total        used        free      shared  buff/cache   available
+Mem:           957Mi       573Mi        99Mi       948Ki       458Mi       383Mi
+Swap:             0B          0B          0B
+
+💾 Checking Disk Usage...
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.8G  3.5G  3.3G  52% /
+tmpfs           479M     0  479M   0% /dev/shm
+tmpfs           192M  932K  191M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda16     881M  137M  683M  17% /boot
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+tmpfs            96M   12K   96M   1% /run/user/1000
+
+🌐 Checking Web Server Status...
+Nginx Web Server: RUNNING
+
+🔌 Checking API Endpoints Status...
+WARNING: GET /students failed
+WARNING: GET /subjects failed
+
+📝 Health Check completed. See /var/log/server_health.log for detailed report.
+
+==========================
+Server Health Check - Sat Apr 26 21:05:29 UTC 2025
+==========================
+
+🔋 Checking CPU Load...
+ 21:05:29 up 29 days,  7:09,  2 users,  load average: 0.00, 0.00, 0.00
+
+💻 Checking Memory Usage...
+               total        used        free      shared  buff/cache   available
+Mem:           957Mi       565Mi       107Mi       948Ki       459Mi       391Mi
+Swap:             0B          0B          0B
+
+💾 Checking Disk Usage...
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.8G  3.5G  3.3G  52% /
+tmpfs           479M     0  479M   0% /dev/shm
+tmpfs           192M  932K  191M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda16     881M  137M  683M  17% /boot
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+tmpfs            96M   12K   96M   1% /run/user/1000
+
+🌐 Checking Web Server Status...
+Nginx Web Server: RUNNING
+
+🔌 Checking API Endpoints Status...
+WARNING: GET /students failed
+WARNING: GET /subjects failed
+
+📝 Health Check completed. See /var/log/server_health.log for detailed report.
+
+==========================
+Server Health Check - Sat Apr 26 21:07:08 UTC 2025
+==========================
+
+🔋 Checking CPU Load...
+ 21:07:08 up 29 days,  7:11,  2 users,  load average: 0.00, 0.00, 0.00
+
+💻 Checking Memory Usage...
+               total        used        free      shared  buff/cache   available
+Mem:           957Mi       558Mi       114Mi       948Ki       459Mi       398Mi
+Swap:             0B          0B          0B
+
+💾 Checking Disk Usage...
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.8G  3.5G  3.3G  52% /
+tmpfs           479M     0  479M   0% /dev/shm
+tmpfs           192M  932K  191M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda16     881M  137M  683M  17% /boot
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+tmpfs            96M   12K   96M   1% /run/user/1000
+
+🌐 Checking Web Server Status...
+Nginx Web Server: RUNNING
+
+🔌 Checking API Endpoints Status...
+WARNING: GET /students failed
+WARNING: GET /subjects failed
+
+📝 Health Check completed. See /var/log/server_health.log for detailed report.
+
+==========================
+Server Health Check - Sat Apr 26 21:12:47 UTC 2025
+==========================
+
+🔋 Checking CPU Load...
+ 21:12:47 up 29 days,  7:16,  2 users,  load average: 0.00, 0.00, 0.00
+
+💻 Checking Memory Usage...
+               total        used        free      shared  buff/cache   available
+Mem:           957Mi       558Mi       113Mi       948Ki       460Mi       399Mi
+Swap:             0B          0B          0B
+
+💾 Checking Disk Usage...
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.8G  3.5G  3.3G  52% /
+tmpfs           479M     0  479M   0% /dev/shm
+tmpfs           192M  932K  191M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda16     881M  137M  683M  17% /boot
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+tmpfs            96M   12K   96M   1% /run/user/1000
+
+🌐 Checking Web Server Status...
+Nginx Web Server: RUNNING
+
+🔌 Checking API Endpoints Status...
+WARNING: GET /students failed
+WARNING: GET /subjects failed
+
+📝 Health Check completed. See /var/log/server_health.log for detailed report.
+
+==========================
+Server Health Check - Sat Apr 26 21:24:41 UTC 2025
+==========================
+
+🔋 Checking CPU Load...
+ 21:24:41 up 29 days,  7:28,  2 users,  load average: 0.00, 0.00, 0.00
+
+💻 Checking Memory Usage...
+               total        used        free      shared  buff/cache   available
+Mem:           957Mi       560Mi        85Mi       948Ki       485Mi       396Mi
+Swap:             0B          0B          0B
+
+💾 Checking Disk Usage...
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.8G  3.5G  3.3G  52% /
+tmpfs           479M     0  479M   0% /dev/shm
+tmpfs           192M  932K  191M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda16     881M  137M  683M  17% /boot
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+tmpfs            96M   12K   96M   1% /run/user/1000
+
+🌐 Checking Web Server Status...
+Nginx Web Server: RUNNING
+
+🐍 Checking Django/Gunicorn Status...
+17119
+77151
+77181
+77184
+77185
+123465
+Django/Gunicorn: RUNNING
+
+🔌 Checking API Endpoints Status...
+
+Testing http://3.85.238.66:8000/studentapi/students/ ...
+*   Trying 3.85.238.66:8000...
+* Connected to 3.85.238.66 (3.85.238.66) port 8000
+> GET /studentapi/students/ HTTP/1.1
+> Host: 3.85.238.66:8000
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Server: gunicorn
+< Date: Sat, 26 Apr 2025 21:24:41 GMT
+< Connection: close
+< Content-Type: application/json
+< Vary: Accept, Cookie
+< Allow: OPTIONS, GET, POST
+< X-Frame-Options: DENY
+< Content-Length: 744
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: same-origin
+< Cross-Origin-Opener-Policy: same-origin
+< 
+{ [744 bytes data]
+* Closing connection
+[{"id":1,"name":"Agripina Mvungi","program":1,"enrollment_date":"2025-03-27"},{"id":2,"name":"Alexandra Christine","program":1,"enrollment_date":"2025-03-27"},{"id":3,"name":"Yolanda Didas","program":1,"enrollment_date":"2025-03-27"},{"id":4,"name":"Lisa Mvungi","program":1,"enrollment_date":"2025-03-27"},{"id":5,"name":"Henry Smith","program":1,"enrollment_date":"2025-03-27"},{"id":6,"name":"John Deo","program":1,"enrollment_date":"2025-03-27"},{"id":7,"name":"Pius Michel","program":1,"enrollment_date":"2025-03-27"},{"id":8,"name":"Pius Puis","program":1,"enrollment_date":"2025-03-27"},{"id":9,"name":"Oscar Kimweri","program":1,"enrollment_date":"2025-03-27"},{"id":10,"name":"Frank Kiruma","program":1,"enrollment_date":"2025-03-27"}]
+WARNING: GET /students failed
+Debug info:
+*   Trying 3.85.238.66:8000...
+* Connected to 3.85.238.66 (3.85.238.66) port 8000
+> GET /studentapi/students/ HTTP/1.1
+> Host: 3.85.238.66:8000
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Server: gunicorn
+< Date: Sat, 26 Apr 2025 21:24:41 GMT
+< Connection: close
+< Content-Type: application/json
+< Vary: Accept, Cookie
+< Allow: OPTIONS, GET, POST
+< X-Frame-Options: DENY
+< Content-Length: 744
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: same-origin
+< Cross-Origin-Opener-Policy: same-origin
+< 
+{ [744 bytes data]
+* Closing connection
+[{"id":1,"name":"Agripina Mvungi","program":1,"enrollment_date":"2025-03-27"},{"id":2,"name":"Alexandra Christine","program":1,"enrollment_date":"2025-03-27"},{"id":3,"name":"Yolanda Didas","program":1,"enrollment_date":"2025-03-27"},{"id":4,"name":"Lisa Mvungi","program":1,"enrollment_date":"2025-03-27"},{"id":5,"name":"Henry Smith","program":1,"enrollment_date":"2025-03-27"},{"id":6,"name":"John Deo","program":1,"enrollment_date":"2025-03-27"},{"id":7,"name":"Pius Michel","program":1,"enrollment_date":"2025-03-27"},{"id":8,"name":"Pius Puis","program":1,"enrollment_date":"2025-03-27"},{"id":9,"name":"Oscar Kimweri","program":1,"enrollment_date":"2025-03-27"},{"id":10,"name":"Frank Kiruma","program":1,"enrollment_date":"2025-03-27"}]
+
+Testing http://3.85.238.66:8000/studentapi/subjects/ ...
+*   Trying 3.85.238.66:8000...
+* Connected to 3.85.238.66 (3.85.238.66) port 8000
+> GET /studentapi/subjects/ HTTP/1.1
+> Host: 3.85.238.66:8000
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Server: gunicorn
+< Date: Sat, 26 Apr 2025 21:24:41 GMT
+< Connection: close
+< Content-Type: application/json
+< Vary: Accept, Cookie
+< Allow: OPTIONS, GET, POST
+< X-Frame-Options: DENY
+< Content-Length: 6584
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: same-origin
+< Cross-Origin-Opener-Policy: same-origin
+< 
+{ [6584 bytes data]
+[{"id":1,"name":"Communication Skills","program":1,"year":1,"code":"LG 102","credits":"7.50"},{"id":2,"name":"Principles of Programming Languages","program":1,"year":1,"code":"CP 111","credits":"9.00"},{"id":3,"name":"Discrete Mathematics for ICT","program":1,"year":1,"code":"MT 1111","credits":"7.50"},{"id":4,"name":"Development Perspectives","program":1,"year":1,"code":"DS 102","credits":"7.50"},{"id":5,"name":"Linear Algebra for ICT","program":1,"year":1,"code":"MT 1117","credits":"7.50"},{"id":6,"name":"Introduction to Information Technology","program":1,"year":1,"code":"IT 111","credits":"7.50"},{"id":7,"name":"Calculus","program":1,"year":1,"code":"MT 1112","credits":"7.50"},{"id":8,"name":"Mathematical Foundations of Information Security","program":1,"year":1,"code":"IA 112","credits":"7.50"},{"id":9,"name":"Introduction to High Level Programming","program":1,"year":1,"code":"CP 123","credits":"9.00"},{"id":10,"name":"Numerical Analysis for ICT","program":1,"year":1,"code":"MT 1211","credits":"7.50"},{"id":11,"name":"Introduction to Database Systems","program":1,"year":1,"code":"CP 121","credits":"9.00"},{"id":12,"name":"Introduction to Computer Networking","program":1,"year":1,"code":"CN 121","credits":"7.50"},{"id":13,"name":"Introduction to Probability and Statistics","program":1,"year":1,"code":"ST 1210","credits":"7.50"},{"id":14,"name":"Introduction to Software Engineering","program":1,"year":1,"code":"CS 123","credits":"6.00"},{"id":15,"name":"Introduction to IT Security","program":1,"year":1,"code":"IA 124","credits":"6.00"},{"id":16,"name":"Industrial Practical Training I","program":1,"year":1,"code":"CS 131","credits":"9.60"},{"id":17,"name":"Object Oriented Programming in Java","program":1,"year":1,"code":"CP 215","credits":"9.00"},{"id":18,"name":"Computer Networking Protocols","program":1,"year":2,"code":"CN 211","credits":"9.00"},{"id":19,"name":"Introduction to Linux/Unix Systems","program":1,"year":2,"code":"CP211","credits":"9.00"},{"id":20,"name":"Systems Analysis and Design","program":1,"year":2,"code":"CP212","credits":"7.50"},{"id":21,"name":"Data Structure and Algorithms Analysis","program":1,"year":2,"code":"CP 213","credits":"10.50"},{"id":22,"name":"Computer Organization and Architecture I","program":1,"year":2,"code":"CT 211","credits":"9.00"},{"id":23,"name":"Computational Theory","program":1,"year":2,"code":"CP 214","credits":"7.50"},{"id":24,"name":"Operating Systems","program":1,"year":2,"code":"CP 226","credits":"9.00"},{"id":25,"name":"Internet Programming and Application I","program":1,"year":2,"code":"CP 221","credits":"7.50"},{"id":26,"name":"ICT Research Methods","program":1,"year":2,"code":"IS 221","credits":"7.50"},{"id":27,"name":"Open Source Technologies","program":1,"year":2,"code":"CP 222","credits":"7.50"},{"id":28,"name":"Object-Oriented Systems Design","program":1,"year":2,"code":"CP 223","credits":"7.50"},{"id":29,"name":"Database Management Systems","program":1,"year":2,"code":"CP 224","credits":"7.50"},{"id":30,"name":"Software Testing and Quality Assurance","program":1,"year":2,"code":"CP 225","credits":"7.50"},{"id":31,"name":"Industrial Practical Training II","program":1,"year":2,"code":"CS 231","credits":"7.50"},{"id":32,"name":"Computer Graphics","program":1,"year":3,"code":"CP 318","credits":"9.00"},{"id":33,"name":"Mathematical Logic and Formal Semantics","program":1,"year":3,"code":"MT 3111","credits":"7.50"},{"id":34,"name":"Internet Programming and Applications II","program":1,"year":3,"code":"CP 311","credits":"9.00"},{"id":35,"name":"Python Programming","program":1,"year":3,"code":"CP 312","credits":"9.00"},{"id":36,"name":"Mobile Applications Development","program":1,"year":3,"code":"CP 313","credits":"9.00"},{"id":37,"name":"ICT Entrepreneurship","program":1,"year":3,"code":"EME 314","credits":"7.50"},{"id":38,"name":"Embedded Systems I","program":1,"year":3,"code":"CT 411","credits":"9.00"},{"id":39,"name":"Selected Topics in Software Engineering","program":1,"year":3,"code":"CP 316","credits":"9.00"},{"id":40,"name":"Advanced Java Programming","progra* Closing connection
+m":1,"year":3,"code":"CS 321","credits":"9.00"},{"id":41,"name":"Distributed Database Systems","program":1,"year":3,"code":"CP321","credits":"9.00"},{"id":42,"name":"Information and Communication Systems Security","program":1,"year":3,"code":"IA 321","credits":"9.00"},{"id":43,"name":"Data Mining and Warehousing","program":1,"year":3,"code":"CP 322","credits":"9.00"},{"id":44,"name":"Web Framework Development Using Javascript","program":1,"year":3,"code":"CP 323","credits":"9.00"},{"id":45,"name":"Industrial Practical Training III","program":1,"year":3,"code":"CS 331","credits":"9.00"},{"id":46,"name":"Secure System Development","program":1,"year":3,"code":"IA 326","credits":"7.50"},{"id":47,"name":"Compiler Technology","program":1,"year":3,"code":"CP 324","credits":"7.50"},{"id":48,"name":"Professional Ethics and Conduct","program":1,"year":4,"code":"ST 311","credits":"7.50"},{"id":49,"name":"Software Engineering Project I","program":1,"year":4,"code":"CS 431","credits":"6.00"},{"id":50,"name":"Computer Maintenance","program":1,"year":4,"code":"CT 312","credits":"9.00"},{"id":51,"name":"Human-Computer Interaction","program":1,"year":4,"code":"IM 411","credits":"7.50"},{"id":52,"name":"C# Programming","program":1,"year":4,"code":"CP 412","credits":"9.00"},{"id":53,"name":"Multimedia Content Development","program":1,"year":4,"code":"CD 312","credits":"7.50"},{"id":54,"name":"ICT Project Management","program":1,"year":4,"code":"BT 413","credits":"6.00"},{"id":55,"name":"Reverse Engineering","program":1,"year":4,"code":"CS 411","credits":"7.50"},{"id":56,"name":"Electronic and Mobile Commerce","program":1,"year":4,"code":"BT 312","credits":"7.50"},{"id":57,"name":"Digital Image Processing","program":1,"year":4,"code":"CP 421","credits":"7.50"},{"id":58,"name":"Software Deployment and Management","program":1,"year":4,"code":"CS 421","credits":"7.50"},{"id":59,"name":"Software Engineering Project II","program":1,"year":4,"code":"CS 432","credits":"9.00"},{"id":60,"name":"Artificial Intelligence","program":1,"year":4,"code":"CP 422","credits":"7.50"},{"id":61,"name":"System Administration and Management","program":1,"year":4,"code":"CP 423","credits":"9.00"},{"id":62,"name":"Cloud Computing","program":1,"year":4,"code":"CP 424","credits":"9.00"},{"id":63,"name":"Big Data Analysis","program":1,"year":4,"code":"CS 329","credits":"9.00"},{"id":64,"name":"Digital Creative Advertising and Production","program":1,"year":4,"code":"CD 322","credits":"9.00"}]
+WARNING: GET /subjects failed
+Debug info:
+*   Trying 3.85.238.66:8000...
+* Connected to 3.85.238.66 (3.85.238.66) port 8000
+> GET /studentapi/subjects/ HTTP/1.1
+> Host: 3.85.238.66:8000
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Server: gunicorn
+< Date: Sat, 26 Apr 2025 21:24:41 GMT
+< Connection: close
+< Content-Type: application/json
+< Vary: Accept, Cookie
+< Allow: OPTIONS, GET, POST
+< X-Frame-Options: DENY
+< Content-Length: 6584
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: same-origin
+< Cross-Origin-Opener-Policy: same-origin
+< 
+{ [6584 bytes data]
+[{"id":1,"name":"Communication Skills","program":1,"year":1,"code":"LG 102","credits":"7.50"},{"id":2,"name":"Principles of Programming Languages","program":1,"year":1,"code":"CP 111","credits":"9.00"},{"id":3,"name":"Discrete Mathematics for ICT","program":1,"year":1,"code":"MT 1111","credits":"7.50"},{"id":4,"name":"Development Perspectives","program":1,"year":1,"code":"DS 102","credits":"7.50"},{"id":5,"name":"Linear Algebra for ICT","program":1,"year":1,"code":"MT 1117","credits":"7.50"},{"id":6,"name":"Introduction to Information Technology","program":1,"year":1,"code":"IT 111","credits":"7.50"},{"id":7,"name":"Calculus","program":1,"year":1,"code":"MT 1112","credits":"7.50"},{"id":8,"name":"Mathematical Foundations of Information Security","program":1,"year":1,"code":"IA 112","credits":"7.50"},{"id":9,"name":"Introduction to High Level Programming","program":1,"year":1,"code":"CP 123","credits":"9.00"},{"id":10,"name":"Numerical Analysis for ICT","program":1,"year":1,"code":"MT 1211","credits":"7.50"},{"id":11,"name":"Introduction to Database Systems","program":1,"year":1,"code":"CP 121","credits":"9.00"},{"id":12,"name":"Introduction to Computer Networking","program":1,"year":1,"code":"CN 121","credits":"7.50"},{"id":13,"name":"Introduction to Probability and Statistics","program":1,"year":1,"code":"ST 1210","credits":"7.50"},{"id":14,"name":"Introduction to Software Engineering","program":1,"year":1,"code":"CS 123","credits":"6.00"},{"id":15,"name":"Introduction to IT Security","program":1,"year":1,"code":"IA 124","credits":"6.00"},{"id":16,"name":"Industrial Practical Training I","program":1,"year":1,"code":"CS 131","credits":"9.60"},{"id":17,"name":"Object Oriented Programming in Java","program":1,"year":1,"code":"CP 215","credits":"9.00"},{"id":18,"name":"Computer Networking Protocols","program":1,"year":2,"code":"CN 211","credits":"9.00"},{"id":19,"name":"Introduction to Linux/Unix Systems","program":1,"year":2,"code":"CP211","credits":"9.00"},{"id":20,"name":"Systems Analysis and Design","program":1,"year":2,"code":"CP212","credits":"7.50"},{"id":21,"name":"Data Structure and Algorithms Analysis","program":1,"year":2,"code":"CP 213","credits":"10.50"},{"id":22,"name":"Computer Organization and Architecture I","program":1,"year":2,"code":"CT 211","credits":"9.00"},{"id":23,"name":"Computational Theory","program":1,"year":2,"code":"CP 214","credits":"7.50"},{"id":24,"name":"Operating Systems","program":1,"year":2,"code":"CP 226","credits":"9.00"},{"id":25,"name":"Internet Programming and Application I","program":1,"year":2,"code":"CP 221","credits":"7.50"},{"id":26,"name":"ICT Research Methods","program":1,"year":2,"code":"IS 221","credits":"7.50"},{"id":27,"name":"Open Source Technologies","program":1,"year":2,"code":"CP 222","credits":"7.50"},{"id":28,"name":"Object-Oriented Systems Design","program":1,"year":2,"code":"CP 223","credits":"7.50"},{"id":29,"name":"Database Management Systems","program":1,"year":2,"code":"CP 224","credits":"7.50"},{"id":30,"name":"Software Testing and Quality Assurance","program":1,"year":2,"code":"CP 225","credits":"7.50"},{"id":31,"name":"Industrial Practical Training II","program":1,"year":2,"code":"CS 231","credits":"7.50"},{"id":32,"name":"Computer Graphics","program":1,"year":3,"code":"CP 318","credits":"9.00"},{"id":33,"name":"Mathematical Logic and Formal Semantics","program":1,"year":3,"code":"MT 3111","credits":"7.50"},{"id":34,"name":"Internet Programming and Applications II","program":1,"year":3,"code":"CP 311","credits":"9.00"},{"id":35,"name":"Python Programming","program":1,"year":3,"code":"CP 312","credits":"9.00"},{"id":36,"name":"Mobile Applications Development","program":1,"year":3,"code":"CP 313","credits":"9.00"},{"id":37,"name":"ICT Entrepreneurship","program":1,"year":3,"code":"EME 314","credits":"7.50"},{"id":38,"name":"Embedded Systems I","program":1,"year":3,"code":"CT 411","credits":"9.00"},{"id":39,"name":"Selected Topics in Software Engineering","program":1,"year":3,"code":"CP 316","credits":"9.00"},{"id":40,"name":"Advanced Java Programming","progra* Closing connection
+m":1,"year":3,"code":"CS 321","credits":"9.00"},{"id":41,"name":"Distributed Database Systems","program":1,"year":3,"code":"CP321","credits":"9.00"},{"id":42,"name":"Information and Communication Systems Security","program":1,"year":3,"code":"IA 321","credits":"9.00"},{"id":43,"name":"Data Mining and Warehousing","program":1,"year":3,"code":"CP 322","credits":"9.00"},{"id":44,"name":"Web Framework Development Using Javascript","program":1,"year":3,"code":"CP 323","credits":"9.00"},{"id":45,"name":"Industrial Practical Training III","program":1,"year":3,"code":"CS 331","credits":"9.00"},{"id":46,"name":"Secure System Development","program":1,"year":3,"code":"IA 326","credits":"7.50"},{"id":47,"name":"Compiler Technology","program":1,"year":3,"code":"CP 324","credits":"7.50"},{"id":48,"name":"Professional Ethics and Conduct","program":1,"year":4,"code":"ST 311","credits":"7.50"},{"id":49,"name":"Software Engineering Project I","program":1,"year":4,"code":"CS 431","credits":"6.00"},{"id":50,"name":"Computer Maintenance","program":1,"year":4,"code":"CT 312","credits":"9.00"},{"id":51,"name":"Human-Computer Interaction","program":1,"year":4,"code":"IM 411","credits":"7.50"},{"id":52,"name":"C# Programming","program":1,"year":4,"code":"CP 412","credits":"9.00"},{"id":53,"name":"Multimedia Content Development","program":1,"year":4,"code":"CD 312","credits":"7.50"},{"id":54,"name":"ICT Project Management","program":1,"year":4,"code":"BT 413","credits":"6.00"},{"id":55,"name":"Reverse Engineering","program":1,"year":4,"code":"CS 411","credits":"7.50"},{"id":56,"name":"Electronic and Mobile Commerce","program":1,"year":4,"code":"BT 312","credits":"7.50"},{"id":57,"name":"Digital Image Processing","program":1,"year":4,"code":"CP 421","credits":"7.50"},{"id":58,"name":"Software Deployment and Management","program":1,"year":4,"code":"CS 421","credits":"7.50"},{"id":59,"name":"Software Engineering Project II","program":1,"year":4,"code":"CS 432","credits":"9.00"},{"id":60,"name":"Artificial Intelligence","program":1,"year":4,"code":"CP 422","credits":"7.50"},{"id":61,"name":"System Administration and Management","program":1,"year":4,"code":"CP 423","credits":"9.00"},{"id":62,"name":"Cloud Computing","program":1,"year":4,"code":"CP 424","credits":"9.00"},{"id":63,"name":"Big Data Analysis","program":1,"year":4,"code":"CS 329","credits":"9.00"},{"id":64,"name":"Digital Creative Advertising and Production","program":1,"year":4,"code":"CD 322","credits":"9.00"}]
+
+📝 Health Check completed. See /var/log/server_health.log for detailed report.
+
+
+
+==========================
+Health Check - Sat Apr 26 21:40:29 UTC 2025
+==========================
+
+🔧 System Status
+ 21:40:29 up 29 days,  7:44,  2 users,  load average: 0.00, 0.00, 0.00
+               total        used        free      shared  buff/cache   available
+Mem:           957Mi       550Mi        93Mi       948Ki       487Mi       406Mi
+Swap:             0B          0B          0B
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.8G  3.5G  3.3G  52% /
+tmpfs           479M     0  479M   0% /dev/shm
+tmpfs           192M  932K  191M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda16     881M  137M  683M  17% /boot
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+tmpfs            96M   12K   96M   1% /run/user/1000
+
+🛎️ Service Status
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2025-04-03 06:13:07 UTC; 3 weeks 2 days ago
+       Docs: man:nginx(8)
+   Main PID: 46750 (nginx)
+17119
+77151
+77181
+77184
+77185
+123465
+
+🔌 API Endpoint Checks
+
+Testing Students Endpoint (http://3.85.238.66:8000/studentapi/students/)
+HTTP Status: 200
+Response snippet: [{"id":1,"name":"Agripina Mvungi","program":1,"enrollment_date":"2025-03-27"},{"id":2,"name":"Alexan...
+[0;32m✅ Students Endpoint is working[0m
+
+Testing Subjects Endpoint (http://3.85.238.66:8000/studentapi/subjects/)
+HTTP Status: 200
+Response snippet: [{"id":1,"name":"Communication Skills","program":1,"year":1,"code":"LG 102","credits":"7.50"},{"id":...
+[0;32m✅ Subjects Endpoint is working[0m
+
+Health check completed at Sat Apr 26 21:40:30 UTC 2025
+
+===========================
+==========================
+Server Update - Sat Apr 26 21:42:34 UTC 2025
+==========================
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages will be upgraded:
+  libnetplan1 linux-base netplan-generator netplan.io pci.ids python3-netplan
+  python3-software-properties rsyslog software-properties-common
+  update-notifier-common
+10 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1342 kB of archives.
+After this operation, 101 kB of additional disk space will be used.
+Get:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 update-notifier-common all 3.192.68.1 [207 kB]
+Get:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 netplan-generator amd64 1.1.2-2~ubuntu24.04.1 [61.1 kB]
+Get:3 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-netplan amd64 1.1.2-2~ubuntu24.04.1 [24.3 kB]
+Get:4 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 netplan.io amd64 1.1.2-2~ubuntu24.04.1 [69.7 kB]
+Get:5 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 libnetplan1 amd64 1.1.2-2~ubuntu24.04.1 [132 kB]
+Get:6 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 rsyslog amd64 8.2312.0-3ubuntu9.1 [511 kB]
+Get:7 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 pci.ids all 0.0~2024.03.31-1ubuntu0.1 [275 kB]
+Get:8 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-base all 4.5ubuntu9+24.04.1 [18.1 kB]
+Get:9 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 software-properties-common all 0.99.49.2 [14.4 kB]
+Get:10 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-software-properties all 0.99.49.2 [29.8 kB]
+Preconfiguring packages ...
+Fetched 1342 kB in 0s (25.5 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 108998 files and directories currently installed.)
+Preparing to unpack .../0-update-notifier-common_3.192.68.1_all.deb ...
+Unpacking update-notifier-common (3.192.68.1) over (3.192.68build3) ...
+Preparing to unpack .../1-netplan-generator_1.1.2-2~ubuntu24.04.1_amd64.deb ...
+Adding 'diversion of /lib/systemd/system-generators/netplan to /lib/systemd/system-generators/netplan.usr-is-merged by netplan-generator'
+Unpacking netplan-generator (1.1.2-2~ubuntu24.04.1) over (1.1.1-1~ubuntu24.04.1) ...
+Preparing to unpack .../2-python3-netplan_1.1.2-2~ubuntu24.04.1_amd64.deb ...
+Unpacking python3-netplan (1.1.2-2~ubuntu24.04.1) over (1.1.1-1~ubuntu24.04.1) ...
+Preparing to unpack .../3-netplan.io_1.1.2-2~ubuntu24.04.1_amd64.deb ...
+Unpacking netplan.io (1.1.2-2~ubuntu24.04.1) over (1.1.1-1~ubuntu24.04.1) ...
+Preparing to unpack .../4-libnetplan1_1.1.2-2~ubuntu24.04.1_amd64.deb ...
+Unpacking libnetplan1:amd64 (1.1.2-2~ubuntu24.04.1) over (1.1.1-1~ubuntu24.04.1) ...
+Preparing to unpack .../5-rsyslog_8.2312.0-3ubuntu9.1_amd64.deb ...
+Unpacking rsyslog (8.2312.0-3ubuntu9.1) over (8.2312.0-3ubuntu9) ...
+Preparing to unpack .../6-pci.ids_0.0~2024.03.31-1ubuntu0.1_all.deb ...
+Unpacking pci.ids (0.0~2024.03.31-1ubuntu0.1) over (0.0~2024.03.31-1) ...
+Preparing to unpack .../7-linux-base_4.5ubuntu9+24.04.1_all.deb ...
+Unpacking linux-base (4.5ubuntu9+24.04.1) over (4.5ubuntu9) ...
+Preparing to unpack .../8-software-properties-common_0.99.49.2_all.deb ...
+Unpacking software-properties-common (0.99.49.2) over (0.99.49.1) ...
+Preparing to unpack .../9-python3-software-properties_0.99.49.2_all.deb ...
+Unpacking python3-software-properties (0.99.49.2) over (0.99.49.1) ...
+Setting up pci.ids (0.0~2024.03.31-1ubuntu0.1) ...
+Setting up linux-base (4.5ubuntu9+24.04.1) ...
+Setting up update-notifier-common (3.192.68.1) ...
+update-notifier-download.service is a disabled or a static unit not running, not starting it.
+update-notifier-motd.service is a disabled or a static unit not running, not starting it.
+Setting up rsyslog (8.2312.0-3ubuntu9.1) ...
+Installing new version of config file /etc/apparmor.d/usr.sbin.rsyslogd ...
+info: The user `syslog' is already a member of `adm'.
+Setting up libnetplan1:amd64 (1.1.2-2~ubuntu24.04.1) ...
+Setting up python3-software-properties (0.99.49.2) ...
+Setting up python3-netplan (1.1.2-2~ubuntu24.04.1) ...
+Setting up netplan-generator (1.1.2-2~ubuntu24.04.1) ...
+Removing 'diversion of /lib/systemd/system-generators/netplan to /lib/systemd/system-generators/netplan.usr-is-merged by netplan-generator'
+Setting up software-properties-common (0.99.49.2) ...
+Setting up netplan.io (1.1.2-2~ubuntu24.04.1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for dbus (1.14.10-4ubuntu4.1) ...
+
+Pending kernel upgrade!
+Running kernel version:
+  6.8.0-1024-aws
+Diagnostics:
+  The currently running kernel version is not the expected kernel version 6.8.0-1027-aws.
+
+Restarting the system to load the new kernel will not be handled automatically, so you should consider rebooting.
+
+Restarting services...
+ systemctl restart gunicorn.service
+
+Service restarts being deferred:
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart networkd-dispatcher.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+
+No containers need to be restarted.
+
+User sessions running outdated binaries:
+ ubuntu @ session #1: gunicorn[17119]
+ ubuntu @ user manager service: systemd[1376]
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+Already up to date.
+Update completed at Sat Apr 26 21:42:57 UTC 2025
+==========================
+
+
+===========================

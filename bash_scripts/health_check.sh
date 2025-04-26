@@ -1,65 +1,56 @@
 #!/bin/bash
 
-# Log file
-LOG_FILE="/var/log/server_health.log"
+# Colors
 GREEN="\033[0;32m"
 RED="\033[0;31m"
 RESET="\033[0m"
 
-echo "==========================" >> "$LOG_FILE"
-echo "Server Health Check - $(date)" >> "$LOG_FILE"
-echo "==========================" >> "$LOG_FILE"
+# Configuration
+API_BASE="http://3.85.238.66:8000"
+STUDENTS_ENDPOINT="$API_BASE/studentapi/students/"
+SUBJECTS_ENDPOINT="$API_BASE/studentapi/subjects/"
+LOG_FILE="/var/log/server_health.log"
 
-# CPU Load
-echo -e "\n🔋 Checking CPU Load..." >> "$LOG_FILE"
-uptime >> "$LOG_FILE"
-echo -e "${GREEN}✅ CPU Load check completed.${RESET}"
+# Log header
+echo -e "\n\n==========================" | sudo tee -a $LOG_FILE
+echo "Health Check - $(date)" | sudo tee -a $LOG_FILE
+echo "==========================" | sudo tee -a $LOG_FILE
 
-# Memory usage
-echo -e "\n💻 Checking Memory Usage..." >> "$LOG_FILE"
-free -h >> "$LOG_FILE"
-echo -e "${GREEN}✅ Memory Usage check completed.${RESET}"
+# Basic checks
+echo -e "\n🔧 System Status" | sudo tee -a $LOG_FILE
+uptime | sudo tee -a $LOG_FILE
+free -h | sudo tee -a $LOG_FILE
+df -h | sudo tee -a $LOG_FILE
 
-# Disk usage
-echo -e "\n💾 Checking Disk Usage..." >> "$LOG_FILE"
-df -h >> "$LOG_FILE"
-echo -e "${GREEN}✅ Disk Usage check completed.${RESET}"
+# Service checks
+echo -e "\n🛎️ Service Status" | sudo tee -a $LOG_FILE
+systemctl status nginx --no-pager | head -n 5 | sudo tee -a $LOG_FILE
+pgrep -f "gunicorn|runserver" | sudo tee -a $LOG_FILE
 
-# Check if Gunicorn or Django server is running
-echo -e "\n🌐 Checking Application Server Status..." >> "$LOG_FILE"
-if pgrep gunicorn > /dev/null; then
-  echo "Gunicorn: RUNNING" >> "$LOG_FILE"
-  echo -e "${GREEN}✅ Application server is running.${RESET}"
-else
-  echo "WARNING: Gunicorn not running" >> "$LOG_FILE"
-  echo -e "${RED}❌ Application server is not running!${RESET}"
-fi
+# API Health Checks
+echo -e "\n🔌 API Endpoint Checks" | sudo tee -a $LOG_FILE
 
-# API Endpoints Health Check
-echo -e "\n🔌 Checking API Endpoints Status..." >> "$LOG_FILE"
+check_endpoint() {
+    local url=$1
+    local name=$2
+    
+    echo -e "\nTesting $name ($url)" | sudo tee -a $LOG_FILE
+    response=$(curl -s -o /dev/null -w "%{http_code}" "$url")
+    full_response=$(curl -s "$url")
+    
+    echo "HTTP Status: $response" | sudo tee -a $LOG_FILE
+    echo "Response snippet: ${full_response:0:100}..." | sudo tee -a $LOG_FILE
+    
+    if [[ "$response" == "200" ]]; then
+        echo -e "${GREEN}✅ $name is working${RESET}" | sudo tee -a $LOG_FILE
+        return 0
+    else
+        echo -e "${RED}❌ $name failed (Status: $response)${RESET}" | sudo tee -a $LOG_FILE
+        return 1
+    fi
+}
 
-# Students endpoint
-students_response=$(curl -s http://3.85.238.66:8000/studentapi/students/)
-students_status=$(echo "$students_response" | grep -o '"success":true')
+check_endpoint "$STUDENTS_ENDPOINT" "Students Endpoint"
+check_endpoint "$SUBJECTS_ENDPOINT" "Subjects Endpoint"
 
-if [ "$students_status" == '"success":true' ]; then
-  echo "GET /students: SUCCESS" >> "$LOG_FILE"
-  echo -e "${GREEN}✅ GET /students is working fine.${RESET}"
-else
-  echo "WARNING: GET /students failed" >> "$LOG_FILE"
-  echo -e "${RED}❌ GET /students failed!${RESET}"
-fi
-
-# Subjects endpoint
-subjects_response=$(curl -s http://3.85.238.66:8000/studentapi/subjects/)
-subjects_status=$(echo "$subjects_response" | grep -o '"success":true')
-
-if [ "$subjects_status" == '"success":true' ]; then
-  echo "GET /subjects: SUCCESS" >> "$LOG_FILE"
-  echo -e "${GREEN}✅ GET /subjects is working fine.${RESET}"
-else
-  echo "WARNING: GET /subjects failed" >> "$LOG_FILE"
-  echo -e "${RED}❌ GET /subjects failed!${RESET}"
-fi
-
-echo -e "\n📝 Health Check completed. See $LOG_FILE for detailed report.\n" >> "$LOG_FILE"
+echo -e "\nHealth check completed at $(date)" | sudo tee -a $LOG_FILE
