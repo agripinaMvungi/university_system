@@ -58,6 +58,50 @@ A Django-based API for managing **students** and **subjects** using SQLite3.
 | GET    | `/studentapi/subjects/` | List all subjects |
 | POST   | `/studentapi/subjects/` | Create a new subject |
 
+## bash scripts
+```bash
+mkdir bash_scripts
+```
+For backups, write your scripts and save 
+```bash
+cd bash_scripts
+nano backups_api.sh
+sudo ./backups_api.sh
+```
+For updates, write your scripts and save 
+```bash
+cd bash_scripts
+nano update_server.sh
+sudo ./update_server.sh
+```
+For health checks, write your scripts and save 
+```bash
+cd bash_scripts
+nano health_check.sh
+sudo ./health_check.sh
+```
+create cron jobs 
+# Health check every 6 hours
+```bash
+0 */6 * * * /home/ubuntu/university_system/bash_scripts/health_check.sh
+```
+
+# Daily backup at 2am
+
+```bash
+0 2 * * * /home/ubuntu/university_system/bash_scripts/backup_api.sh
+```
+
+# Server update every 3 days at 3am
+
+```bash
+0 3 */3 * * /home/ubuntu/university_system/bash_scripts/update_server.sh
+```
+Check that the cron jobs were added correctly:
+```bash
+sudo crontab -l -u ubuntu
+```
+
 ## Deployment
 
 To deploy the project on a production server:
