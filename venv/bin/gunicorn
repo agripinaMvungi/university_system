@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/home/eng-mvungi/Documents/4th year /sem 2/CS 421/project/django_student_api/venv/bin/python3" "$0" "$@"
-' '''
+#!/Users/mbp/Documents/pina_mobile/pina_uni_assignments/university_system/venv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys
