@@ -105,23 +105,33 @@ sudo crontab -l -u ubuntu
 ## Building using Docker
 
 # Step 1: Build the Docker image
+```bash
 sudo docker build -f Dockerfile -t your-dockerhub-username/your-repo-name:tag .
+```
 
 # Step 2: (Optional) Tag an existing image again if needed
+```bash
 sudo docker tag existing_image_id your-dockerhub-username/your-repo-name:new_tag
+```
 
 # Step 3: Login to Docker Hub
+```bash
 sudo docker login
+```
 
 # Step 4: Push the image to Docker Hub
+```bash
 sudo docker push your-dockerhub-username/your-repo-name:tag
+```
 
 # Step 5: (Optional) Delete unwanted local image/tag
+```bash
 sudo docker rmi image_id_or_name
-
+```
 # Step 6: (Optional) Save container logs to a file
+```bash
 sudo docker logs container_id_or_name > docker_logs.txt
-
+```
 
 ## Deployment
 
