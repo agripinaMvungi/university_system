@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: ./studentapi
+      dockerfile: Dockerfile
+    container_name: django-api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"  # Expose Django dev server
+    volumes:
+      - ./studentapi:/app  # Mount app code (good for live reload in development)
+      - sqlite_data:/var/lib/sqlite  # SQLite file persistence
+    environment:
+      - DEBUG=False
+      - DJANGO_SETTINGS_MODULE=university.settings
+      - DB_PATH=/var/lib/sqlite/db.sqlite3
+      - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0,3.85.238.66,172.31.82.113
+    networks:
+      - university_network
+    command: >
+      sh -c "python manage.py migrate &&
+             python manage.py runserver 0.0.0.0:8000"
+
+volumes:
+  sqlite_data:  # Named volume for SQLite DB
+
+networks:
+  university_network:  # Custom bridge network
+    driver: bridge

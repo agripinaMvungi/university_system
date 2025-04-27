@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-z(!hbb56%6r3#!-%jkm5*v($=4emt)l(hk98(6z*tfq+mkv_xe
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '50.16.103.234', 'ec2-50-16-103-234.compute-1.amazonaws.com', 'localhost', '127.0.0.1','0.0.0.0'
+    '50.16.103.234', 'ec2-50-16-103-234.compute-1.amazonaws.com', 'localhost', '127.0.0.1','0.0.0.0', '3.85.238.66'
 ]
 
 
