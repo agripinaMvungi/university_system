@@ -59,13 +59,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-]
-
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Your frontend URL during development
-]
+CORS_ALLOW_ALL_ORIGINS = True
 
 # Allow credentials if needed
 CORS_ALLOW_CREDENTIALS = True
